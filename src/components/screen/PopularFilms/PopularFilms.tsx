@@ -15,6 +15,7 @@ export const PopularFilms = ({ display }: { display: "grid" | "flex" }) => {
   const handlePageChange = (num: number) => {
     setPage(num);
   };
+
   const navigate = useNavigate();
   const navigateFilm = (id: number) => {
     navigate(`/films/${id}`);

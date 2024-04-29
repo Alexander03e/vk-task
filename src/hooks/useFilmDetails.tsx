@@ -42,7 +42,7 @@ export interface IFilm {
   vote_count: number;
 }
 
-export const useFilmDetails = (id: number = 3) => {
+export const useFilmDetails = (id: number) => {
   return useQuery(["film", id], () => filmsApi.fetchFilmDetails(id), {
     enabled: !!id,
   });

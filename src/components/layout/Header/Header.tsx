@@ -12,12 +12,12 @@ export const Header = () => {
           <h3 className={styles.homeLink} onClick={setHomePage}>
             Кино справочник
           </h3>
-          <h3>
-            Выполнил: Егоров А.М{"   "}
+          <div>
+            <h3>Выполнил: Егоров А.М{"   "}</h3>
             <Link to={"https://t.me/yasasha12"} className={styles.me}>
               tg: @yasasha12
             </Link>
-          </h3>
+          </div>
         </div>
       </div>
     </div>

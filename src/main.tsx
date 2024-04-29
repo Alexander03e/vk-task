@@ -6,7 +6,7 @@ import { BrowserRouter } from "react-router-dom";
 const queryClient = new QueryClient();
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <QueryClientProvider client={queryClient}>
-    <BrowserRouter basename="/vk-task">
+    <BrowserRouter>
       <App />
     </BrowserRouter>
   </QueryClientProvider>
