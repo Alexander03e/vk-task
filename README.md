@@ -2,3 +2,4 @@
 Выполнил Егоров Александр
 
 !Важно: api работает только с vpn
+Использовал: React, React query, scss, typescript
